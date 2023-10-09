@@ -1,8 +1,7 @@
 body {
     font-family: 'Trebuchet MS', sans-serif;
     padding: 1%;
-    /* background-color: #f0edf0; */
-    background-color: grey;
+    background-color: #f0edf0;
     height: 100%;
 }
 
@@ -13,7 +12,7 @@ body {
     padding-left: 10%;
     border: solid aqua 1px;
     border-radius: 15px;
-    background-image: url('newfeedBGImage.jpg');
+    background-image: url('image/newfeedBGImage.jpg');
     background-size: cover;
     color: white;
 }
@@ -229,7 +228,6 @@ body {
 }
 
 .tweet {
-    border: 1px solid blue;
     width: 100%;
     padding-top: 3%;
     padding-left: 4%;
