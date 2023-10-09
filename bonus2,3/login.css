@@ -1,0 +1,32 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+#loginFormContainer {
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 30%;
+  height: 500px;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+
+#loginText {
+  display: flex;
+  justify-content: center;
+}
+
+#loginForm {
+  border: solid black 1px;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  padding: 2%;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+#confirmPasswordInput {
+  border: solid black 1px;
+}
