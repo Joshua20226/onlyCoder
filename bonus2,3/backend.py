@@ -88,6 +88,8 @@ app.add_middleware(
 )
 
 # TODO: Setup rate limit and firewall
+
+
 @app.middleware('http')
 async def load_balancer_middleware(request: Request, call_next, device='web'):
     endpoint = str(request.url).split(request.headers['host'])[1]
