@@ -2,9 +2,9 @@ from pymongo import MongoClient
 
 
 def main():
-    uri = "mongodb+srv://test_user:testpassword@jkmongo.knddllg.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+    url = "mongodb+srv://test_user:testpassword@jkmongo.knddllg.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
 
-    db_connection = MongoClient(uri)
+    db_connection = MongoClient(url)
 
     def check_db_connection():
         try:

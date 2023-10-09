@@ -34,6 +34,9 @@ function submitForm(){
             // return error message or login token
             if (data.response){
                 console.log('Message:', data.response)
+                if (data.response == 'Login failed'){
+                    alert('Login failed')
+                }
             }
             if (data.token){
                 alert('Login successfully')
